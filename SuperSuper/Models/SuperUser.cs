@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace SuperSuper.Models
+{
+	public class SuperUser
+	{
+		public int Id { get; set; }
+
+		public int UserName { get; set; }
+
+		public string Address { get; set; }
+
+		public string EmailAdress { get; set; }
+
+		public string Password { get; set; }
+	}
+}
